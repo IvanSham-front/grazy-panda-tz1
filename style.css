@@ -1,0 +1,49 @@
+.slider_red {
+    background-color: red;
+}
+
+.slider__hendle_red {
+    border-color: red;
+}
+
+.slider_green {
+    background-color: green;
+}
+
+.slider__handle_green {
+    border-color: green;
+}
+
+.slider_blue {
+    background-color: blue;
+}
+
+.slider__handle_blue {
+    border-color: blue;
+}
+
+
+.fieldset {
+    margin-bottom: 2em;
+}
+
+.flex-box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.sliders {
+    flex-basis: 45%;
+}
+
+.slider {
+    margin: 10px;
+}
+
+.text {
+    padding: 10px;
+    flex-basis: 50%;
+    margin: 0;
+    font-size: 20px;
+}

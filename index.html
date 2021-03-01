@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Color text slider</title>
+</head>
+<body>
+    <fieldset class="fieldset">
+        <legend>Select:</legend>
+
+        <label for="radioColor">color</label>
+        <input type="radio" name="selectColor" value="text" id="radioColor" checked>
+
+        <label for="radioBackgroundColor">backgroundColor</label>
+        <input type="radio" name="selectColor" value="background" id="radioBackgroundColor">
+    </fieldset>
+
+    <div class="flex-box">
+        <div class="sliders">    
+            <div id="sliderRed" class="slider"></div>
+            <div id="sliderGreen" class="slider"></div>
+            <div id="sliderBlue" class="slider"></div>
+        </div>
+    
+        <p class="text" id="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Similique dignissimos vel non neque debitis voluptatum officia accusantium soluta praesentium. 
+            Eos commodi enim deleniti earum. Voluptatibus iusto consequatur facilis alias deserunt!
+        </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+    <script src="script.js"></script>   
+</body>
+</html>
